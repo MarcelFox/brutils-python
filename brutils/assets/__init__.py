@@ -1,0 +1,1 @@
+from brutils.assets.legal_process_ids import legal_process_ids
