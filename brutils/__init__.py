@@ -21,3 +21,9 @@ from brutils.phone import (
     is_valid_mobile as is_valid_mobile_phone,
     is_valid as is_valid_phone,
 )
+from brutils.legal_process import (
+    is_valid as is_valid_process,
+    format_processo_juridico,
+    sieve as remove_symbols_legal_process,
+    generate as generate_legal_process,
+)
