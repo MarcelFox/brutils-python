@@ -27,3 +27,5 @@ from brutils.legal_process import (
     sieve as remove_symbols_legal_process,
     generate as generate_legal_process,
 )
+
+from brutils.email import is_valid as is_valid_email
